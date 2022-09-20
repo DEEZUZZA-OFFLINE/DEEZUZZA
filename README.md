@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/AJAX.png" alt="Ajax-Extra-FeaturesLogo">
+  <img src="https://telegra.ph/file/71e8b4d1e52011ca47dba.jpg" alt="DEEZUZZA">
 </p>
 <h1 align="center">
-  <b>𝙰𝙹𝙰𝚇-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂</b>
+  <b>DEEZUZZA</b>
 </h1>
 
 <a href="https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA">
