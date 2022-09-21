@@ -219,9 +219,14 @@ async def next_page(bot, query):
         )
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-            InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-            InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+            InlineKeyboardButton(f'🔮 {search} 🔮', 'dupe')
+        ]
+    )
+    btn.insert(0,
+        [
+            InlineKeyboardButton(f'📁 Files: {len(files)}', 'dupe'),
+            InlineKeyboardButton(f'💫 Tips', 'tips')
+        
         ]
     )
     try:
@@ -1373,9 +1378,14 @@ async def auto_filter(client, msg, spoll=False):
         )
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-            InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-            InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+            InlineKeyboardButton(f'🔮 {search} 🔮', 'dupe')
+        ]
+    )
+    btn.insert(0,
+        [
+            InlineKeyboardButton(f'📁 Files: {len(files)}', 'dupe'),
+            InlineKeyboardButton(f'💫 Tips', 'tips')
+        
         ]
     )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
